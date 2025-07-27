@@ -1,4 +1,6 @@
 Uday Singh | Data Science & Full-Stack Portfolio
+
+
 Overview
 This repository hosts the code for my personal portfolio website, showcasing my expertise in Data Science, Machine Learning, and Full-Stack Development. Designed to impress hiring managers at top tech companies like MotorQ, this portfolio highlights my ability to build scalable, data-driven software solutions and tackle complex challenges.
 
