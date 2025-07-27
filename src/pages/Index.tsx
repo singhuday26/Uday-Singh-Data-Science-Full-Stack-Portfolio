@@ -18,11 +18,11 @@ import {
   Download,
   MapPin
 } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
-import udayHeadshot from "@/assets/uday-headshot.jpg";
-import projectChurn from "@/assets/project-churn.jpg";
-import projectSentiment from "@/assets/project-sentiment.jpg";
-import projectCNN from "@/assets/project-cnn.jpg";
+import heroBackground from "@/assets/hero-background-new.jpg";
+import headshotPlaceholder from "@/assets/headshot-placeholder.jpg";
+import projectChurnIcon from "@/assets/project-churn-icon.jpg";
+import projectSentimentIcon from "@/assets/project-sentiment-icon.jpg";
+import projectCNNIcon from "@/assets/project-cnn-icon.jpg";
 
 const Index = () => {
   const scrollToSection = (sectionId: string) => {
@@ -45,7 +45,7 @@ const Index = () => {
       methodology: "Applied feature engineering, handled class imbalance with SMOTE, and optimized hyperparameters using GridSearchCV.",
       results: "Achieved 85% accuracy on telecom dataset, providing actionable insights for retention strategies that could potentially save $2M annually.",
       techStack: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
-      image: projectChurn,
+      image: projectChurnIcon,
       github: "https://github.com/singhuday26/customer-churn-prediction"
     },
     {
@@ -56,7 +56,7 @@ const Index = () => {
       methodology: "Implemented TextBlob and NLTK for sentiment classification, created real-time data pipeline using Twitter API.",
       results: "Achieved 90% F1-score on live Twitter feeds, enabling real-time market sentiment monitoring for 5+ brands.",
       techStack: ["Python", "NLTK", "TextBlob", "Streamlit", "Twitter API"],
-      image: projectSentiment,
+      image: projectSentimentIcon,
       github: "https://github.com/singhuday26/sentiment-analyzer"
     },
     {
@@ -67,7 +67,7 @@ const Index = () => {
       methodology: "Built custom CNN with data augmentation, dropout regularization, and transfer learning from pre-trained models.",
       results: "Achieved 93% accuracy on test dataset, demonstrating robust image recognition capabilities for production deployment.",
       techStack: ["Python", "TensorFlow", "Keras", "OpenCV", "NumPy"],
-      image: projectCNN,
+      image: projectCNNIcon,
       github: "https://github.com/singhuday26/cnn-image-classification"
     }
   ];
@@ -88,11 +88,16 @@ const Index = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in-up">
             <div className="mb-8">
-              <img 
-                src={udayHeadshot} 
-                alt="Uday Singh - Data Scientist" 
-                className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto border-4 border-white/20 shadow-glow hover:scale-105 transition-transform duration-300"
-              />
+              <div className="relative">
+                <img 
+                  src={headshotPlaceholder} 
+                  alt="Uday Singh - Professional Placeholder (Upload your photo here)" 
+                  className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto border-4 border-white/20 shadow-glow hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 rounded-full border-2 border-dashed border-white/40 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span className="text-xs text-white/80 bg-black/50 px-2 py-1 rounded">Upload Photo</span>
+                </div>
+              </div>
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">

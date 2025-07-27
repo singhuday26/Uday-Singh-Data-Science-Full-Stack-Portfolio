@@ -157,6 +157,16 @@ All colors MUST be HSL for consistent theming across light/dark modes.
     @apply bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer;
   }
 
+  /* Project Image Placeholder */
+  .project-image-placeholder {
+    @apply relative overflow-hidden rounded-lg bg-gradient-to-br from-muted to-muted/50 border-2 border-dashed border-border/50 flex items-center justify-center min-h-[200px] hover:border-accent/40 transition-all duration-300;
+  }
+
+  .project-image-placeholder::after {
+    content: 'Upload Project Image';
+    @apply absolute text-xs text-muted-foreground bg-background/80 px-3 py-1 rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300;
+  }
+
   /* Skill Tag Styling */
   .skill-tag {
     @apply bg-gradient-to-r from-accent/10 to-accent/5 text-accent-foreground px-4 py-2 rounded-full text-sm font-medium border border-accent/20 hover:border-accent/40 transition-all duration-300;
