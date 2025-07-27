@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+Uday Singh | Data Science & Full-Stack Portfolio
+Overview
+This repository hosts the code for my personal portfolio website, showcasing my expertise in Data Science, Machine Learning, and Full-Stack Development. Designed to impress hiring managers at top tech companies like MotorQ, this portfolio highlights my ability to build scalable, data-driven software solutions and tackle complex challenges.
 
-## Project info
+Key Features
+Comprehensive Project Showcase: Detailed case studies of my significant projects in Data Science (Customer Churn Prediction, Real-Time Sentiment Analyzer, Image Classification with CNN) and Full-Stack Development (MediCare - Hospital Management System).
 
-**URL**: https://lovable.dev/projects/38b14324-4747-49aa-b7c7-66856d3b205b
+Quantified Impact: Projects feature clear, measurable results (e.g., 85% accuracy, 90% F1-score, 93% CNN accuracy) and real-world implications.
 
-## How can I edit this code?
+Modern Technology Stack: Built with industry-standard tools and frameworks, demonstrating proficiency in contemporary web development practices.
 
-There are several ways of editing your application.
+Professional Design System: A sophisticated, data-centric aesthetic with a deep blue/teal color palette, professional typography (Inter, Montserrat), and smooth animations.
 
-**Use Lovable**
+Fully Responsive: Optimized for seamless viewing across all devices – mobile, tablet, and desktop.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/38b14324-4747-49aa-b7c7-66856d3b205b) and start prompting.
+Interactive User Experience: Features like smooth-scroll navigation, hover effects, and clear calls-to-action enhance user engagement.
 
-Changes made via Lovable will be committed automatically to this repo.
+Technology Stack
+This portfolio website is a modern single-page application built with the following core technologies:
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend Framework: React 18.3.1  with TypeScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+Build Tool: Vite 5.4.10  with SWC for fast compilation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+UI Framework: shadcn/ui components built on Radix UI primitives 
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Styling: Tailwind CSS 3.4.11  with custom design system
+
+
+Animation: tailwindcss-animate for smooth transitions 
+
+
+Icons: Lucide React 0.462.0  for consistent iconography
+
+
+State Management: React hooks with @tanstack/react-query for data fetching 
+
+
+Routing: React Router DOM 6.26.2 
+
+
+Deployment: Vercel (via Lovable's integration) 
+
+
+Monitoring (Ready for Integration): Sentry.io, Google Analytics, Web Vitals 
+
+Design System Highlights
+Color Palette:
+
+Primary: 
+
+hsl(198 93% 20%) (Deep blue) 
+
+Primary Glow: 
+
+hsl(198 100% 35%) (Brighter blue) 
+
+Accent Colors: Green (
+
+142 76% 36%), Orange (25 95% 53%), Purple (262 83% 58%) 
+
+
+Typography: Headlines (Montserrat), Body Text (Inter) 
+
+
+Custom CSS Variables: var(--gradient-primary), var(--shadow-glow), var(--transition-smooth) 
+
+Project Structure & Development
+The application follows a component-based architecture with distinct sections:
+
+Navigation
+
+Hero Section
+
+About Section
+
+Skills Section
+
+Projects Section
+
+Education Section
+
+Contact Section
+
+Footer
+
+Local Development Setup
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+Bash
+
+git clone <https://github.com/singhuday26/uday-data-showcase.git>
+Navigate to the project directory:
+
+Bash
+
+cd <uday-data-showcase>
+Install dependencies:
+
+Bash
+
+npm install
+Start the development server:
+
+Bash
+
 npm run dev
-```
+The application will be available at 
 
-**Edit a file directly in GitHub**
+http://localhost:8080.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment
+This project is deployed via Lovable's integration, using Vercel. Simply open the project in Lovable and click on 
 
-**Use GitHub Codespaces**
+Share -> Publish. 
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Accessibility & Performance
 
-## What technologies are used for this project?
+Accessibility: Designed to meet WCAG AA standards with semantic HTML, ARIA attributes, keyboard navigation, and sufficient color contrast. 
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/38b14324-4747-49aa-b7c7-66856d3b205b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Performance: Optimized with lazy loading, asset optimization, hardware-accelerated transforms, and Vite's build optimizations. 
