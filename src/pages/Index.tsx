@@ -447,57 +447,57 @@ const Index = () => {
             Ready to collaborate on data-driven solutions? Let's discuss how we can create impact together.
           </p>
           
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors">
+          <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
+            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors w-full sm:w-auto sm:min-w-[200px] flex-1 sm:flex-none">
               <CardContent className="p-6">
                 <Mail className="h-8 w-8 mx-auto mb-3 text-accent-glow" />
-                <h3 className="font-semibold mb-2">Email</h3>
+                <h3 className="font-semibold mb-2 text-primary-foreground">Email</h3>
                 <a 
                   href="mailto:uday.singh240818@gmail.com" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground hover:underline"
+                  className="text-sm text-primary-foreground/90 hover:text-primary-foreground hover:underline break-all"
                 >
                   uday.singh240818@gmail.com
                 </a>
               </CardContent>
             </Card>
             
-            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors">
+            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors w-full sm:w-auto sm:min-w-[200px] flex-1 sm:flex-none">
               <CardContent className="p-6">
                 <Phone className="h-8 w-8 mx-auto mb-3 text-accent-glow" />
-                <h3 className="font-semibold mb-2">Phone</h3>
+                <h3 className="font-semibold mb-2 text-primary-foreground">Phone</h3>
                 <a 
                   href="tel:+918126852998" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground hover:underline"
+                  className="text-sm text-primary-foreground/90 hover:text-primary-foreground hover:underline"
                 >
                   +91-81268-52998
                 </a>
               </CardContent>
             </Card>
             
-            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors">
+            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors w-full sm:w-auto sm:min-w-[200px] flex-1 sm:flex-none">
               <CardContent className="p-6">
                 <Linkedin className="h-8 w-8 mx-auto mb-3 text-accent-glow" />
-                <h3 className="font-semibold mb-2">LinkedIn</h3>
+                <h3 className="font-semibold mb-2 text-primary-foreground">LinkedIn</h3>
                 <a 
                   href="https://linkedin.com/in/udaysingh2626" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground hover:underline"
+                  className="text-sm text-primary-foreground/90 hover:text-primary-foreground hover:underline"
                 >
                   udaysingh2626
                 </a>
               </CardContent>
             </Card>
             
-            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors">
+            <Card className="bg-white/10 border-white/20 text-center hover:bg-white/20 transition-colors w-full sm:w-auto sm:min-w-[200px] flex-1 sm:flex-none">
               <CardContent className="p-6">
                 <Github className="h-8 w-8 mx-auto mb-3 text-accent-glow" />
-                <h3 className="font-semibold mb-2">GitHub</h3>
+                <h3 className="font-semibold mb-2 text-primary-foreground">GitHub</h3>
                 <a 
                   href="https://github.com/singhuday26" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground hover:underline"
+                  className="text-sm text-primary-foreground/90 hover:text-primary-foreground hover:underline"
                 >
                   singhuday26
                 </a>
@@ -505,10 +505,10 @@ const Index = () => {
             </Card>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               asChild
-              className="bg-white text-primary hover:bg-white/90"
+              className="bg-success text-success-foreground hover:bg-success/90 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               <a href="mailto:uday.singh240818@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
@@ -519,7 +519,7 @@ const Index = () => {
             <Button 
               asChild
               variant="outline"
-              className="border-white/30 text-primary-foreground hover:bg-white/10"
+              className="border-white/40 text-primary-foreground hover:bg-white/20 hover:border-white/60 transition-all duration-300"
             >
               <a href="https://linkedin.com/in/udaysingh2626" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
